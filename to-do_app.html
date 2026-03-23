@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            li{
+                margin-bottom: 8px;
+            }
+            li button{
+                margin-left: 10px;
+                cursor: pointer;
+            }
+            .done {
+                text-decoration: line-through;
+                background-color: rgb(246, 112, 132);
+                color:gray;
+            }
+        </style>
+        <title>To-Do App</title>
+    </head>
+    <body>
+        <h1>My Tasks</h1>
+        <input type="text" id="taskInput" placeholder="write a task">
+        <button onclick="addTask()">Add</button>
+        <ul id="taskList"></ul>
+        <script src="scripts.js"></script>
+    </body>
+</html>
